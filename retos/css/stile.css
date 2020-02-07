@@ -1,0 +1,10 @@
+body{
+    background-size: contain;
+    background-image: url(/web2020/proyectodevida/imgagenes/bucle.jpg);
+}
+header{
+    background-color: white;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
