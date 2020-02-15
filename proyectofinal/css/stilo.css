@@ -1,17 +1,79 @@
-body{
-    background-image: url(../imagenes/fondo3.jpg);
+.reg{
+    background-image: url(../imagenes/fondoayua.png);
+}
+.este{
+    background-image: url(../imagenes/fondoforo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif
+}
+.inci{
+    background-image: url(../imagenes/Fondo1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif
+
+}
+.gilf{
+    background-image: url(../imagenes/fondovideo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif
+}
+.ayudar{
+    background-image: url(../imagenes/Fondo1.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif
+
+}
+.ayua2{
+    background-image: url(../imagenes/fondoayua.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif
+}
+.iman{
+    background-image: url(../imagenes/fondoimagenes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif
 }
 .principal{
-    font-size: 20px;
+    font-size: 25px;
 }
-.eso{
-    
+.ano{
+    font-size: 25px; 
+}
+.fooll{
+    background-color: ye;
+}
+.tua{
+    background-color: white;
+}
+.fondo-naranja{   
+    background-color: orange;
 }
 .foll{
-    background-color: black;
+    background-color: #00b1f79a;
+}
+.naranja:hover{
+    background: transparent;
+    color:orange;
+}
+.lala{
+    background-color: rgba(46, 45, 45, 0.473);
+}
+.fondo-naranja{
+    color: orange;
 }
 a{
     color: white;
+}
+a:hover{
+    background-color: orange;
+    color: white;
+}
+.for{
+    color: blue;
+    background: transparent;
 }
