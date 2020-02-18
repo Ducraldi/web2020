@@ -21,32 +21,251 @@
             <div class="lala row">
                 <div class="col-lg-4 col-md-4">
                     <a class="naranja" href="../../index.html" style="text-decoration: none;">
-                        <img class="mb-3 w-25 rounded-circle" src="../../imagenes/icono2.png" alt="icono">Republica
+                        <img class="mb-1 w-25 rounded-circle" src="../../imagenes/icono2.png" alt="icono">Republica
                         Dominicana
                     </a>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="lala container align-items-left col-md-1 ">
-        <hr class="mb-5">
-        <div class=" row ">
-            <div class="mb-3">
-                <div class="">
-                    <h1 class="for text-center">Registro</h1>
-                    <i class="mr-2 fa fa-forumbee" aria-hidden="true"></i><input type="button Nombre de Usuario"
-                        placeholder="Nombre de Usuario" width="50">
-                    </a>
-                    
-                    <input type="button Apellido" placeholder="Apellido" width="50">
-                    
-                    <input type="button Email" placeholder="Email Cuenta" width="50">
-                    
-                    <input type="button Telefono" placeholder="Telefono" width="45">
-                </div>
+    <section class="reg container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <!--imagen principal-->
+                <img src="../../imagenes/fondoinfom.jpg" style="width: 100% " height="690" alt="Imagen de inicio">
+            </div>
+            <div class="col-xl-4">
+                <!--formularios-->
+                <form action="">
+                    <h3> <b class="fooll text-center">Registrarte</b> </h3>
+                    <hr>
+                    <div class="fooll text form-group">
+
+                        <small class=""> <label for="nombre_usuario">
+                                        Nombre
+                            </label> </small>
+                        <input class="form-control" type="text" id="nombre_usuario" name="nombre_usuario"
+                            placeholder="Escribe tu nombre de usuario">
+
+                        <div class="invalid-feedback">
+                            Ingrese su nombre
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+
+                        <small class="fooll"><label for="email_usuario">
+                                <h6>Email</h6>
+                            </label></small>
+                        <div class="input-group">
+                            <input class="form-control" type="email" id="email_usuario" name="email_usuario"
+                                placeholder="Escribe tu email">
+                            <div class="input-group-append">
+                                <span class="input-group-text">@gmail.com</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--contrsena-->
+                    <div class="form-group">
+                        <small class="fooll"> <label for="contrasena_usuario">
+                                <h6>Contrasña</h6>
+                            </label> <small></small>
+                            <input class="form-control" type="password" id="contrasena_usuario"
+                                name="contrasena_usuario" placeholder="Escribe tu contraseña">
+                    </div>
+
+
+                    <!--selecione su dia,mes y ano de nacimiento-->
+                    <small clastexts="-muted">
+                        <h6>Fecha de nacimiento</h6>
+                    </small>
+                    <div class="form-row">
+                        <div class="col-md-2 mb-3">
+                            <label for="validationCustom04"></label>
+                            <select class="custom-select" id="validationCustom04" required>
+                                <option selected disabled value="">Dia</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8</option>
+                                <option>9</option>
+                                <option>10</option>
+                                <option>11</option>
+                                <option>12</option>
+                                <option>13</option>
+                                <option>14</option>
+                                <option>15</option>
+                                <option>16</option>
+                                <option>17</option>
+                                <option>18</option>
+                                <option>19</option>
+                                <option>20</option>
+                                <option>21</option>
+                                <option>22</option>
+                                <option>23</option>
+                                <option>24</option>
+                                <option>25</option>
+                                <option>26</option>
+                                <option>27</option>
+                                <option>28</option>
+                                <option>29</option>
+                                <option>30</option>
+                                <option>31</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                selecione el dia de su nacimiento
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 mb-3">
+                            <label for="validationCustom04"></label>
+                            <select class="custom-select" id="validationCustom04" required>
+                                <option selected disabled value="">Mes</option>
+                                <option>Enero</option>
+                                <option>Febrero</option>
+                                <option>Marzo</option>
+                                <option>Abril</option>
+                                <option>Mayo</option>
+                                <option>Julio</option>
+                                <option>Junio</option>
+                                <option>Agosto</option>
+                                <option>Septiembre</option>
+                                <option>Optubre</option>
+                                <option>Noviembre</option>
+                                <option>Diciembre</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                selecione el mes en el cual usted nacio
+                            </div>
+                        </div>
+
+                        <div class="col-md-2 mb-3">
+                            <label for="validationCustom04"></label>
+                            <select class="custom-select" id="validationCustom04" required>
+                                <option selected disabled value="">Año</option>
+                                <option>2000</option>
+                                <option>2001</option>
+                                <option>2002</option>
+                                <option>2003</option>
+                                <option>2004</option>
+                                <option>2005</option>
+                                <option>2006</option>
+                                <option>2007</option>
+                                <option>2008</option>
+                                <option>2009</option>
+                                <option>2010</option>
+                                <option>2011</option>
+                                <option>2012</option>
+                                <option>2013</option>
+                                <option>2014</option>
+                                <option>2015</option>
+                                <option>2016</option>
+                                <option>2017</option>
+                                <option>2018</option>
+                                <option>2019</option>
+                                <option>2020</option>
+                                <option>2021</option>
+                                <option>2022</option>
+                                <option>2023</option>
+                                <option>2024</option>
+                                <option>2025</option>
+
+                            </select>
+                            <div class="invalid-feedback">
+                                selecione el año en el cual usted nacimiento
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--botones para ejeir sexo-->
+                    <small clastexts="-muted">
+                        <h6>Sexo</h6>
+                    </small>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                            value="option1">
+                        <label class="form-check-label" for="inlineRadio1">
+                            <h6>Hombre</h6>
+                        </label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                            value="option2">
+                        <label class="form-check-label" for="inlineRadio2">
+                            <h6>Mujer</h6>
+                        </label>
+                    </div>
+
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                            value="option2">
+                        <label class="form-check-label" for="inlineRadio2">
+                            <h6>No espesificar</h6>
+                        </label>
+                    </div>
+
+                    <!--boton de refistrarse-->
+                    <small clastexts="-muted">
+                        <p>Al hacer clic en Registrarte, aceptas las Condiciones, la Política de datos y la Política de
+                            cookies. Es posible que te enviemos notificaciones por SMS que podrás desactivar cuando
+                            quieras.</p>
+                    </small>
+                    <div class="form-group">
+                        <input type="submit" value="Registrarte" class="btn btn-primary btn-lg btn-block">
+                    </div>
+
+
+                    <!--botones de facebook,google etc-->
+                    <div class="form-group">
+                        <p>
+                            <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1"
+                                role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i
+                                    class="fa fa-facebook-official" aria-hidden="true"></i> iniciar con facebook</a>
+                            <button class="btn btn-danger" type="button" data-toggle="collapse"
+                                data-target="#multiCollapseExample2" aria-expanded="false"
+                                aria-controls="multiCollapseExample2"><i class="fa fa-google-plus-square"
+                                    aria-hidden="true"></i> iniciar con google</button>
+
+                            <!--espacio asiarriba-->
+                            <div class="mt-1">
+                                <button class="btn btn-info" type="button" data-toggle="collapse"
+                                    data-target=".multi-collapse" aria-expanded="false"
+                                    aria-controls="multiCollapseExample1 multiCollapseExample2"><i
+                                        class="fa fa-twitter-square " aria-hidden="true"></i> iniciar con
+                                    twiter</button>
+                            </div>
+                        </p>
+                        <div class="row">
+                            <div class="col">
+                                <div class="collapse multi-collapse" id="multiCollapseExample1">
+                                    <div class="card card-body">
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="collapse multi-collapse" id="multiCollapseExample2">
+                                    <div class="card card-body">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </form>
             </div>
         </div>
-    </div>
+        </div>
+    </section>
 </body>
 
 </html>

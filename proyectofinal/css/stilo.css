@@ -1,40 +1,63 @@
-.reg{
-    background-image: url(../imagenes/fondoayua.png);
+.vidu{
+    background-image: url(../imagenes/fondovidu.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding: 15px;
+}
+.infom{
+    background-image: url(../imagenes/fondoinfom.jpg);
+    background-repeat: no-repeat;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    
+}
+.lolo{
+    background-color: rgba(0, 0, 0, 0.808);
+    color: white;
+    text-align: center;
 }
 .este{
     background-image: url(../imagenes/fondoforo.jpg);
     background-size: cover;
+    padding: 15px;
     background-repeat: no-repeat;
     font-family: 'Times New Roman', Times, serif
 }
+.inicio{
+    padding: 15px;
+    background-image: url(../imagenes/fondoforo.jpg);
+    background-size: cover;
+    padding: 15px;
+    background-repeat: no-repeat;
+}
 .inci{
-    background-image: url(../imagenes/Fondo1.jpg);
+    background-image: url(../imagenes/fondoinci.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    padding: 15px;
     font-family: 'Times New Roman', Times, serif
 
 }
-.gilf{
-    background-image: url(../imagenes/fondovideo.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: 'Times New Roman', Times, serif
-}
 .ayudar{
-    background-image: url(../imagenes/Fondo1.jpg);
+    background-image: url(../imagenes/fondoayu.jpg);
     background-repeat: no-repeat;
-    font-family: 'Times New Roman', Times, serif
+    padding: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
 
 }
 .ayua2{
-    background-image: url(../imagenes/fondoayua.png);
+    background-image: url(../imagenes/fondoforo.jpg);
     background-size: cover;
+    padding: 15px;
     background-repeat: no-repeat;
     font-family: 'Times New Roman', Times, serif
 }
 .iman{
-    background-image: url(../imagenes/fondoimagenes.jpg);
+    background-image: url(../imagenes/fondoiman.jpg);
     background-size: cover;
+    padding: 15px;
     background-repeat: no-repeat;
     font-family: 'Times New Roman', Times, serif
 }
@@ -45,11 +68,12 @@
     font-size: 25px; 
 }
 .fooll{
-    background-color: ye;
+    color: white;
 }
 .tua{
     background-color: white;
 }
+
 .fondo-naranja{   
     background-color: orange;
 }
@@ -61,7 +85,8 @@
     color:orange;
 }
 .lala{
-    background-color: rgba(46, 45, 45, 0.473);
+    background-color: rgba(0, 0, 0, 0.404);
+    
 }
 .fondo-naranja{
     color: orange;
@@ -76,4 +101,42 @@ a:hover{
 .for{
     color: blue;
     background: transparent;
+}
+.tit{
+    font-family: fantasy;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 45px;
+    font-family: cursive;
+    background-color: rgba(0, 0, 0, 0.699);
+}
+.ama{
+    background-image: url(../imagenes/sub.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.lalo{
+    color: white;
+    font-size: 35px;
+}
+.ete{
+    color: rgb(252, 24, 24);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.eto{
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+.lasa{
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(37, 107, 110, 0.116);
+}
+.laro{
+    b
 }
