@@ -3,14 +3,17 @@
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
-    padding: 15px;
 }
 .infom{
     background-image: url(../imagenes/fondoinfom.jpg);
     background-repeat: no-repeat;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 15px;
-    
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;   
+}
+.infom2{
+    background-image: url(../imagenes/fondoinfom2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .lolo{
     background-color: rgba(0, 0, 0, 0.808);
@@ -20,44 +23,36 @@
 .este{
     background-image: url(../imagenes/fondoforo.jpg);
     background-size: cover;
-    padding: 15px;
     background-repeat: no-repeat;
     font-family: 'Times New Roman', Times, serif
 }
 .inicio{
-    padding: 15px;
     background-image: url(../imagenes/fondoforo.jpg);
     background-size: cover;
-    padding: 15px;
     background-repeat: no-repeat;
 }
 .inci{
     background-image: url(../imagenes/fondoinci.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 15px;
     font-family: 'Times New Roman', Times, serif
 
 }
 .ayudar{
     background-image: url(../imagenes/fondoayu.jpg);
     background-repeat: no-repeat;
-    padding: 15px;
     font-family: 'Times New Roman', Times, serif;
-    padding: 15px;
 
 }
 .ayua2{
     background-image: url(../imagenes/fondoforo.jpg);
     background-size: cover;
-    padding: 15px;
     background-repeat: no-repeat;
     font-family: 'Times New Roman', Times, serif
 }
 .iman{
     background-image: url(../imagenes/fondoiman.jpg);
     background-size: cover;
-    padding: 15px;
     background-repeat: no-repeat;
     font-family: 'Times New Roman', Times, serif
 }
@@ -85,7 +80,7 @@
     color:orange;
 }
 .lala{
-    background-color: rgba(0, 0, 0, 0.404);
+    background-color: rgba(0, 0, 0, 0.534);
     
 }
 .fondo-naranja{
@@ -107,7 +102,7 @@ a:hover{
     color: rgb(255, 255, 255);
     text-align: center;
     font-size: 45px;
-    font-family: cursive;
+    font-family: 'Times New Roman', Times, serif;
     background-color: rgba(0, 0, 0, 0.699);
 }
 .ama{
@@ -134,9 +129,17 @@ a:hover{
 .lasa{
     font-size: 25px;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     background-color: rgba(37, 107, 110, 0.116);
 }
 .laro{
-    b
+    background-color: rgba(128, 128, 128, 0.76);
+    
+}
+.bt{
+    color: rgb(255, 255, 255);
+    background-color: rgba(81, 6, 255, 0.486);
+}
+.lara{
+    padding: 40px;
 }

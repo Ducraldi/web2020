@@ -9,21 +9,117 @@
     <link rel="stylesheet" href="../../css/font-awesome.min.css">
     <link rel="stylesheet" href="../../css/stilo.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Foro</title>
+    <link rel="icon"  typer="image/png" href="../../imagenes/icono2.png">
+    <title>Iniciar Seccion</title>
 
-</head>
-
-<body class="inicio">
     <header class="principal container-fluid">
         <nav class="lolo">
             <div class="naranja row">
                 <div class="col-lg-4 col-md-4">
                     <a class="naranja" href="../../index.html" style="text-decoration: none;">
-                        <img class="w-25 rounded-circle" src="../..//imagenes/icono2.png" alt="icono">Republica Dominicana
+                        <img class="w-25 rounded-circle" src="../..//imagenes/icono2.png" alt="icono">Republica
+                        Dominicana
                     </a>
                 </div>
             </div>
         </nav>
-
     </header>
+
+</head>
+<hr>
+<body class="inicio">
+    <section class="lolo container">
+        <div class="lara row">
+            <div class="col-xl-12">
+                <!--formularios-->
+                <form action="">
+                    <h3> <b class="fooll text-center">Registrarte</b> </h3>
+                    <hr>
+                    <div class="fooll text form-group">
+
+                        <small class=""> <label for="nombre_usuario">
+                                Nombre
+                            </label> </small>
+                        <input class="form-control" type="text" id="nombre_usuario" name="nombre_usuario"
+                            placeholder="Escribe tu nombre de usuario">
+
+                        <div class="invalid-feedback">
+                            Ingrese su nombre
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+
+                        <small class="fooll"><label for="email_usuario">
+                                <h6>Email</h6>
+                            </label></small>
+                        <div class="input-group">
+                            <input class="form-control" type="email" id="email_usuario" name="email_usuario"
+                                placeholder="Escribe tu email">
+                            <div class="input-group-append">
+                                <span class="input-group-text">@gmail.com</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!--contrsena-->
+                    <div class="form-group">
+                        <small class="fooll"> <label for="contrasena_usuario">
+                                <h6>Contrasña</h6>
+                            </label> <small></small>
+                            <input class="form-control" type="password" id="contrasena_usuario"
+                                name="contrasena_usuario" placeholder="Escribe tu contraseña">
+                    </div>
+            </div>
+            </select>
+            <div class="invalid-feedback">
+                selecione el año en el cual usted nacimiento
+            </div>
+        </div>
+        </small>
+        <div class="col-xl-12 form-group">
+            <input type="submit" value="Iniciar" class="btn btn-primary btn-lg btn-block">
+        </div>
+        <!--botones de facebook,google etc-->
+        <div class="form-group">
+            <p>
+                <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button"
+                    aria-expanded="false" aria-controls="multiCollapseExample1"><i class="fa fa-facebook-official"
+                        aria-hidden="true"></i> iniciar con facebook</a>
+                <button class="btn btn-danger" type="button" data-toggle="collapse" data-target="#multiCollapseExample2"
+                    aria-expanded="false" aria-controls="multiCollapseExample2"><i class="fa fa-google-plus-square"
+                        aria-hidden="true"></i> iniciar con google</button>
+
+                <!--espacio asiarriba-->
+                <div class="mt-1">
+                    <button class="btn btn-info" type="button" data-toggle="collapse" data-target=".multi-collapse"
+                        aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2"><i
+                            class="fa fa-twitter-square " aria-hidden="true"></i> iniciar con
+                        twiter</button>
+                </div>
+            </p>
+            <div class="row">
+                <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample1">
+                        <div class="card card-body">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="collapse multi-collapse" id="multiCollapseExample2">
+                        <div class="card card-body">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        </form>
+        </div>
+        </div>
+        </div>
+    </section>
 </body>
