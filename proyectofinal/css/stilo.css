@@ -1,8 +1,8 @@
 .vidu{
     background-image: url(../imagenes/fondovidu.jpg);
     background-repeat: no-repeat;
-    background-position: top;
     background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
 }
 .infom{
     background-image: url(../imagenes/fondoinfom.jpg);
@@ -84,7 +84,11 @@
     
 }
 .fondo-naranja{
-    color: orange;
+    color: rgb(255, 255, 255);
+    
+}
+.lama:hover{
+    background-color: orange;
 }
 a{
     color: white;
@@ -127,13 +131,13 @@ a:hover{
     
 }
 .lasa{
-    font-size: 25px;
+    font-size: 30px;
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    background-color: rgba(37, 107, 110, 0.116);
+    background-color: rgba(0, 0, 0, 0.616);
 }
 .laro{
-    background-color: rgba(128, 128, 128, 0.76);
+    background-color: rgba(128, 128, 128, 0.404);
     
 }
 .bt{
@@ -142,4 +146,10 @@ a:hover{
 }
 .lara{
     padding: 40px;
+
+}
+.mara{
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    text-align: center;
 }
