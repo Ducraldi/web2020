@@ -1,19 +1,29 @@
 const inputColor = document.querySelector('#color');
-        const btnCambiarColor = document.querySelector('#cambiar_color')
+const btnCambiarColor = document.querySelector('#cambiar_color')
 
-        btnCambiarColor.addEventListener('click', () =>{
-            let color = inputColor.value;
+let numero = 10;
 
-            if (color === '') {
-                alert("Debes escribir un valor para el color")
-            } else{
-                cambiarColorFondo(color);
-            }
+let numero2 = 20;
 
-            
+let resultado = numero * numero2;
 
-        })
+console.log(resultado);
 
-        function cambiarColorFondo(color){
-            document.body.style.backgroundColor = color;
-        }
+btnCambiarColor.addEventListener('click', () => {
+    let color = inputColor.value;
+    let nombre = "pagina con JS";
+
+
+    if (color === '') {
+        alert("Debes escribir un valor para el color")
+    } else {
+        cambiarColorFondo(color);
+    }
+
+
+
+})
+
+function cambiarColorFondo(color) {
+    document.body.style.backgroundColor = color;
+}
