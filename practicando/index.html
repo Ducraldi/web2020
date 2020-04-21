@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duqui</title>
+</head>
+<body>
+    <h1>Hola <span id="nombre">Mundo!</span></h1>
+
+    <button id="saludar">saludar</button>
+
+
+    <script>
+        // Capturando los elemento
+        const btnSaludar = document.querySelector('#saludar');
+        const spanNombre = document.querySelector('#nombre');
+        
+        // Fucion encargada de mostrar nombre
+        function mostranombre(nombre){
+            spanNombre.textContent = nombre;
+        }
+        // Cuando el usuario haga click en boton
+        btnSaludar.addEventListener('click', function(){
+            // Leer el nombre del usuario
+            let nombreDigitado  = prompt("Como te llamas?");
+
+            // Mostrar el nombre del usuario    
+            mostranombre(nombreDigitado);
+        });
+    </script>
+</body>
+</html>

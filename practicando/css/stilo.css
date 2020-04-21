@@ -1,0 +1,31 @@
+/*esto para inicial*/
+body{
+    background-image: url(../imagenes/body.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Texto lindo para cabeza de la pagina*/
+.tt{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 100px;
+    background-color: rgba(0, 0, 0, 0.397);
+    color: orange;
+}
+/*Texto lindo para cuarquier letra*/
+.tt2{
+    font-family: 'Times New Roman', Times, serif;
+    color: orangered;
+    font-size: 55px;
+    text-align: center;
+}
+/*Color transparente para botones y palabras*/
+a.tt3{
+    background-color: white;
+    color: rgba(255, 68, 0, 0.979);
+    
+}
+.bt{
+    color: white;
+    background-color: blue;
+}

@@ -36,7 +36,7 @@
     background-image: url(../imagenes/fondoinci.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif
 
 }
 .ayudar{
@@ -57,7 +57,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Times New Roman', Times, serif
-}
+}f
 
 .principal{
     font-size: 25px;
@@ -77,7 +77,6 @@
 }
 .foll{
     background-color: #00b1f79a;
-    font-size: 20px;
 }
 .naranja:hover{
     background: transparent;
@@ -85,7 +84,6 @@
 }
 .lala{
     background-color: rgba(0, 0, 0, 0.534);
-    font-size: 30px;
     
 }
 .fondo-naranja{
@@ -99,7 +97,7 @@ a{
     color: white;
 }
 a:hover{
-    background-color:orange;
+    background-color: orange;
     color: white;
 }
 .for{
